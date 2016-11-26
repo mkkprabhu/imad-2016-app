@@ -42,6 +42,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'UR.html'));
 });
 
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'img'));
+});
+
+
+
 
 
 
