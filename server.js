@@ -13,9 +13,37 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'TA.html'));
 });
+
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'BE.html'));
+});
+
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'HI.html'));
+});
+
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'MA.html'));
+});
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'TE.html'));
+});
+
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'UR.html'));
+});
+
+
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
